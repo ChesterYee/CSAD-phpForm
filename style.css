@@ -1,0 +1,31 @@
+body {
+    font-size: 12pt;
+    font-family: "Arial", sans-serif;
+    background-color: #008080;
+}
+
+a:link {
+    color: pink;
+}
+
+a:hover {
+    font-size: 200%;
+    color: black;
+}
+
+img {
+    border: black dotted 3px;
+}
+
+h1 {
+    font-size: 30pt;
+    font-family: "Verdana";
+    background-color: #FF00FF;
+}
+
+footer {
+    background-color: red;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}

@@ -84,6 +84,10 @@ function test_input($data) {
                 font-family: sans-serif;
             }
 
+            img {
+                max-width: 10%;
+            }
+
             
         </style>
     </head>
@@ -109,9 +113,28 @@ function test_input($data) {
                     <input type="radio" name="gender"<?php if (isset($gender) && $gender=="male") echo "checked";?>value="male">Male
             <p>
 
+
             <input type="submit">
+            <br>
 
 
+            <!-- Embed link in an image -->
+            <a href = "https://www.google.com"><img src="php.png"></a>
+
+            <h3> Your input is as follows: </h1>
+
+            <?php
+                echo "<br>";
+                echo $name;
+                echo "<br>";
+                echo $contact;
+                echo "<br>";
+                echo $email;
+                echo "<br>";
+                echo $comment;
+                echo "<br>";
+                echo $gender;
+            ?>
 
         </form>
     </body>
